@@ -1,0 +1,10 @@
+bblanchon/ArduinoJson @ ^6.21.3
+adafruit/Adafruit SCD30 @ ^1.0.7
+adafruit/Adafruit SSD1306 @ ^2.5.9
+makuna/DHT sensor library @ ^1.4.4
+paulstoffregen/DS1302RTC @ ^1.0.2
+adafruit/Adafruit Unified Sensor @ ^1.1.4
+me-no-dev/AsyncTCP @ ^1.1.1
+greiman/SdFat @ ^2.2.0
+4-20ma/ModbusMaster @ ^2.0.1
+me-no-dev/ESP Async WebServer @ ^1.2.3

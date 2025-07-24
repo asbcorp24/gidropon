@@ -1,0 +1,11 @@
+https://github.com/adafruit/Adafruit_Sensor.git
+adafruit/Adafruit Unified Sensor@^1.1.4
+https://github.com/adafruit/DHT-sensor-library.git
+https://github.com/adafruit/Adafruit-GFX-Library.git
+greiman/SdFat@^2.2.0
+bblanchon/ArduinoJson@^6.21.3
+me-no-dev/AsyncTCP@^1.1.1
+https://github.com/4-20ma/ModbusMaster.git
+https://github.com/me-no-dev/ESPAsyncWebServer.git
+https://github.com/me-no-dev/AsyncTCP.git
+https://github.com/msparks/arduino-ds1302.git

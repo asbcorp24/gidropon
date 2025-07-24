@@ -6,7 +6,7 @@
 #include <ESPAsyncWebServer.h>
 #include <DHT.h>
 #include <Adafruit_SCD30.h>
-#include <DS1302RTC.h>
+#include <DS1302.h>
 #include <Adafruit_SSD1306.h>
 #include <SD.h>
 #include <SPI.h>
@@ -70,7 +70,7 @@ public:
   // Объекты для работы с аппаратурой
   DHT dht{DHTPIN, DHTTYPE};                // DHT11
   Adafruit_SCD30 scd30;                    // CO2 сенсор
-  DS1302RTC rtc{21, 19, 18};               // часы реального времени
+  DS1302 rtc{21, 19, 18};               // часы реального времени
   Adafruit_SSD1306 display{128, 32, &Wire, -1}; // OLED дисплей
   ModbusMaster node;                       // Modbus RTU
   AsyncWebServer server{80};               // Веб-сервер
